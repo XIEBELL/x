@@ -4,43 +4,42 @@
     <meta charset="UTF-8">
     <title>yaorongke</title>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f2f2f2;
-            color: #333;
+        body, html {
+            height: 100%;
             margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-image: url('https://www.apple.com/v/macbook-pro/a/images/overview/hero_endframe__fzicsxu0x9ye_large_2x.jpg');
-            background-size: cover;
-            background-position: center;
+            font-family: "Apple SD Gothic Neo", "Malgun Gothic", "맑은 고딕", sans-serif;
+        }
+        .bgimg {
+            /* Background gradient */
+            background: linear-gradient(135deg, #e3f2fd, #e1f5fe);
+            height: 100%;
+            position: relative;
+            color: #333;
         }
         .container {
-            background-color: rgba(255, 255, 255, 0.8);
+            background-color: rgba(255, 255, 255, 0.9);
             padding: 40px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             max-width: 600px;
+            margin: 40px auto;
             text-align: center;
         }
         h1 {
             font-size: 2.5em;
-            color: #333;
             margin-bottom: 20px;
         }
         .poem {
             font-size: 1em;
-            color: #666;
             line-height: 1.6;
         }
     </style>
 </head>
 <body>
+
+<div class="bgimg">
     <div class="container">
-        <h1>欢迎来到斜杠小窝</h1>
+        <h1>欢迎来到贝尔小窝</h1>
         <h1>Hello ~</h1>
         <div class="poem">
             <p>江南好，风景旧曾谙。</p>
@@ -48,5 +47,7 @@
             <p>能不忆江南？</p>
         </div>
     </div>
+</div>
+
 </body>
 </html>
